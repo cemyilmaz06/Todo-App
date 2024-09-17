@@ -12,7 +12,7 @@ useEffect(()=>{
 },[todos])
 
   return (
-    <div className="App">
+    <div className="App container w-50 ">
      <Header settodos={settodos} todos={todos}/>
      <TodoList settodos={settodos} todos={todos}/>
     </div>

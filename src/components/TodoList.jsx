@@ -18,7 +18,7 @@ const TodoList = ({todos, settodos}) => {
 
   return (
     <div>
-       <h2 className='text-center text-danger'>Todos</h2>
+       <h2 className='text-center text-info mt-4'>Todos</h2>
       <ListGroup>
       {todos.map((todo)=>(
         <ListGroup.Item 
